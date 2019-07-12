@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: url(../../project-04/images/logos/inhabitent-logo-text.svg) top 50px left
+        950px no-repeat,
+      url(../../project-04/images/dark-wood.png) repeat-x;
+    color: #fff;
+    text-align: left;
+    height: 90%;
+    padding-bottom: 60px;
+  
+    h2 {
+      color: #d99054 ;
+    }
+  
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+  
+    .contact-info {
+      padding: 4%;
+    }
+  
+    .hours {
+      padding: 4%;
+    }
+  
+    .copyright {
+      text-align: center;
+      position: relative;
+      padding-top: 20%;
+    }
+  }

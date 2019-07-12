@@ -568,6 +568,13 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+.content-area {
+  background-color: aqua; }
+
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+/* Front page */
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
@@ -605,6 +612,35 @@ a {
 
 .bypostauthor {
   display: block; }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: url(../../project-04/images/logos/inhabitent-logo-text.svg) top 50px left 950px no-repeat, url(../../project-04/images/dark-wood.png) repeat-x;
+  color: #fff;
+  text-align: left;
+  height: 90%;
+  padding-bottom: 60px; }
+  footer h2 {
+    color: #d99054; }
+  footer a {
+    color: #fff;
+    text-decoration: none; }
+  footer .contact-info {
+    padding: 4%; }
+  footer .hours {
+    padding: 4%; }
+  footer .copyright {
+    text-align: center;
+    position: relative;
+    padding-top: 20%; }
 
 /*--------------------------------------------------------------
 # Media
@@ -665,8 +701,3 @@ object {
 
 .gallery-caption {
   display: block; }
-
-/*--------------------------------------------------------------
-# Page Templates
---------------------------------------------------------------*/
-/* Front page */

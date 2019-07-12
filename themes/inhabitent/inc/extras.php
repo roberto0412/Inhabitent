@@ -20,3 +20,29 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+
+
+
+function inhabitent_login_logo(){
+	$logo_location = get_template_directory_uri().'/project-04/images/logos/1.svg ';
+
+	echo '<style> 
+	.login h1 a {
+		background-image: url(' . $logo_location . ');
+		background-repeat: no-repeat;
+		background-size: 300px 53px;
+		padding-left: 230px;
+	}
+	.login .button.button-primary {
+		background-color: #248A83;
+	}
+		</style>';
+}
+add_action( 'login_head', 'inhabitent_login_logo' );
+
+
+
+
+
+

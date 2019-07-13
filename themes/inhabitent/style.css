@@ -568,13 +568,29 @@ a {
 .widget_search .search-submit {
   display: none; }
 
-.content-area {
-  background-color: aqua; }
+.logo-tent {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../project-04/images/home-hero.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../project-04/images/home-hero.jpg) no-repeat;
+  background-size: cover, cover;
+  height: 100vh;
+  padding-bottom: 50px; }
+  .logo-tent img {
+    position: relative;
+    left: 40%;
+    top: 30%; }
 
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+/*  Header Styling nav */
+.site-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding: 100px; }
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/

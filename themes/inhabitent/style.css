@@ -568,6 +568,39 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+/* Front page */
+/*  Header Styling nav */
+.site-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  width: 100%; }
+  .site-header .container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .site-header .container .logo_tent {
+      height: 120px;
+      width: 120px; }
+  .site-header .main-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .site-header li {
+    margin: 20px; }
+  .site-header a:link {
+    text-decoration: none; }
+  .site-header a:visited {
+    text-decoration: none; }
+
 .logo-tent {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../project-04/images/home-hero.jpg) no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../project-04/images/home-hero.jpg) no-repeat;
@@ -579,17 +612,12 @@ a {
     left: 40%;
     top: 30%; }
 
-/*--------------------------------------------------------------
-# Page Templates
---------------------------------------------------------------*/
-/* Front page */
-/*  Header Styling nav */
-.site-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  padding: 100px; }
+.about_background {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../project-04/images/about-hero.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../project-04/images/about-hero.jpg) no-repeat;
+  background-size: cover, cover;
+  height: 100vh;
+  padding-bottom: 50px; }
 
 /*--------------------------------------------------------------
 # Content

@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area content-about">
+	<div id="primary" class="about_background">
 		<main id="main" class="site-main" role="main">
 		<h1>About</h1>
 
@@ -20,5 +20,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

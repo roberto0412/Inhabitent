@@ -10,9 +10,90 @@
 .site-header{
 
     display: flex;
-    text-align: center;
-    padding: 100px;
+     position: fixed;
+    width: 100%;
+
+
+    
+
+
+
+
+
+
+    .container{
+        width: 100%;
+        display: flex;
+
+
+
+
+
+        .logo_tent{
+            height: 120px;
+            width: 120px;
+        }
+
+    }
+
+
+
+    .main-navigation{
+        display: flex;
+        justify-content: flex-end;
+    }
+    li {
+        margin: 20px;
+
+
+
+        }
+        
+        a:link {
+            text-decoration: none;
+          }
+          
+          a:visited {
+            text-decoration: none;
+          }
+
+
+
+
 }
 
 
 
+
+
+.logo-tent{
+
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../project-04/images/home-hero.jpg) no-repeat;
+    background-size: cover, cover;
+    height: 100vh;
+    padding-bottom: 50px;
+
+
+
+
+  img{
+    position: relative;
+    left: 40%;
+    top: 30%;
+  }
+
+
+
+    }
+
+
+
+
+    .about_background{
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../project-04/images/about-hero.jpg) no-repeat;
+        background-size: cover, cover;
+        height: 100vh;
+        padding-bottom: 50px;
+
+    }

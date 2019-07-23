@@ -568,6 +568,67 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+.home img {
+  height: 150px;
+  width: 150px;
+  -ms-flex-item-align: center;
+      align-self: center; }
+
+.home .site-header a {
+  color: aqua; }
+  .home .site-header a:hover {
+    text-decoration: none;
+    font-weight: none; }
+
+.home h1 {
+  text-align: center;
+  margin: 31px 0px 60px; }
+
+.home .building_blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1120px; }
+  .home .building_blocks .termin {
+    height: 70px;
+    width: 70px; }
+  .home .building_blocks div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 333px;
+    width: 333px;
+    border: 1px solid #e1e1e1;
+    border-top: 6px solid #e1e1e1;
+    padding: 20px;
+    margin-right: 25px;
+    border-color: #a1a1a1; }
+    .home .building_blocks div:hover {
+      border-color: #d99054; }
+    .home .building_blocks div .goto_link {
+      background: #248A83;
+      text-decoration: none;
+      color: white;
+      padding: 10px 24px;
+      -ms-flex-item-align: center;
+          align-self: center; }
+      .home .building_blocks div .goto_link:visited {
+        color: white; }
+
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
@@ -596,10 +657,6 @@ a {
             justify-content: flex-end; }
   .site-header li {
     margin: 20px; }
-  .site-header a:link {
-    text-decoration: none; }
-  .site-header a:visited {
-    text-decoration: none; }
 
 .logo-tent {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../project-04/images/home-hero.jpg) no-repeat;
@@ -618,6 +675,16 @@ a {
   background-size: cover, cover;
   height: 100vh;
   padding-bottom: 50px; }
+
+.home .site-header a {
+  color: aqua; }
+  .home .site-header a:hover {
+    color: #f0e4d1;
+    text-decoration: none;
+    font-weight: none; }
+
+.archive .shop-push img {
+  height: 200px; }
 
 /*--------------------------------------------------------------
 # Content

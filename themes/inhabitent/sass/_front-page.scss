@@ -1,0 +1,120 @@
+
+.home {
+ 
+
+  img{
+      height: 150px;
+      width: 150px;
+      align-self: center;
+  }
+
+
+
+    .site-header{
+
+
+
+      a{
+  
+         color: aqua;
+       
+          &:hover { 
+          text-decoration: none; 
+          font-weight: none 
+       }
+   
+   
+      }  
+
+
+    }
+
+
+    h1{
+        text-align: center;
+        margin: 31px 0px 60px;
+    }
+
+        .building_blocks{
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 40px;
+            justify-content: space-between;
+            margin-right: auto;
+            margin-left: auto;
+
+           
+            width: 1120px;
+
+
+
+            .termin{
+
+
+                height: 70px;
+                width: 70px;
+            }
+
+
+
+            div{
+                display: flex;
+                flex-direction: column;
+                height: 333px;
+                width: 333px;
+                border:1px solid #e1e1e1;
+                border-top: 6px solid #e1e1e1;
+                padding: 20px;
+                margin-right: 25px;
+                border-color: $color_light_grey;
+                &:hover{
+                    border-color:$color_orange;
+
+
+                }
+            
+
+
+            .goto_link{
+                background: $color_green;
+                text-decoration: none;
+                color: white;
+                padding: 10px 24px;
+                align-self:center;
+
+
+            &:visited{
+                color:white;
+            }
+
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+  
+
+
+}
+

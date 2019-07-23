@@ -12,23 +12,23 @@
     display: flex;
      position: fixed;
     width: 100%;
+
+
+
+
+
     .container{
         width: 100%;
         display: flex;
 
-
-
-
-
         .logo_tent{
-            height: 120px;
-            width: 120px;
+          position: relative;
+           margin-left: 300px;
+            height: 60px;
+            width: 50px;
         }
 
     }
-
-
-
        .main-navigation{
          display: flex;
         justify-content: flex-end;
@@ -37,22 +37,30 @@
         margin: 20px;
 
 
-
         }
+       .menu-main-menu-container{
+         text-transform: uppercase;
+         padding-right: 250px;
+
+
+
+
+         a{
+
+          &:visited{
+            color: $color_green;
+          }
+         }
+       }
         
 
 }
 
 .logo-tent{
-
-
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../project-04/images/home-hero.jpg) no-repeat;
     background-size: cover, cover;
     height: 100vh;
     padding-bottom: 50px;
-
-
-
 
   img{
     position: relative;
@@ -84,7 +92,10 @@
 
 
        a{
-           color: aqua;
+           color: #ffffff;
+           &:visited{
+             color:$color_yellow;
+           }
  
 
 
@@ -100,7 +111,174 @@
 
        }
 
+       
 
 
     }
 
+
+.archive.post-type-archive{
+
+  .taxo_titles{
+    padding-top: 100px;
+    font-family: $font_to;
+  }
+
+     .grid_wrapper{
+   
+       
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 0 200px 84px;
+
+
+
+
+    
+      // display: grid;
+    	// grid-template-columns: repeat(4, 1fr);
+    	// grid-auto-rows: 250px;
+    	// grid-gap: 20px 20px;
+
+      .post_grid{
+        
+        .product_pic{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+         a{
+           img{
+            height: 235px;
+             max-width: 100%;
+             object-fit: cover;
+           }
+
+
+
+
+            }
+        }
+
+
+
+
+      }
+
+
+   }
+   
+
+}
+
+
+.page-template-default{
+  .menu-main-menu-container{
+    text-transform: uppercase;
+    padding-right: 250px;
+      a{
+      color: $color_yellow;
+     &:visited{
+     color:$color_yellow
+     }
+    }
+  }
+
+
+}
+
+
+
+
+.blog{
+.content-area{
+  padding-top: 20px;
+
+}
+}
+
+.blog,
+
+.archive {
+
+
+
+  
+  .entry-title {
+    background-color: $color_green;
+    font-size: 2.1rem;
+    padding: 10px;
+    width: 70%;
+    bottom: 521px;
+    position: relative;
+    a {
+      color: white;
+     text-decoration: none;
+      &:visited{
+        color: #ffffff;
+      }
+      &:hover {
+        background: $color_green;
+        border: 1px solid $color_green;
+        color: #fff;
+      }
+    }
+
+
+    
+  }
+  .readmore{
+    position: relative;
+    bottom: 60px;
+    left: 550px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: .9rem;
+    line-height: 1;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 4px;
+  }
+
+  .site-main {
+    margin-top: 40px;
+    margin-right: 10px;
+  }
+  header {
+    max-height: 600px;
+    img {
+      height: 545px;
+      width: 55em;
+    }
+  }
+  .site-content {
+    margin-top: 1em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1120px;
+  }
+  .entry-content {
+    width: 90%;
+    text-align: left;
+    margin-bottom: 40px;
+
+  }
+  .entry-meta {
+    position: relative;
+    left: 512px;
+    bottom: 268px;
+    background-color: $color_green;
+    color: #fff;
+    width: 40%;
+    padding: 6px;
+  }
+
+  .widget-area{
+    padding-top: 100px;
+  }
+  
+}

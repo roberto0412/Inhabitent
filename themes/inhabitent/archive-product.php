@@ -9,7 +9,7 @@ get_header(); ?>
 
 <!-- /* taxonomie query */ -->
 
-<section class='page-header'>
+<section class='taxo_titles'>
    <h1 class='Shop-title'>SHOP STUFF</h1>
 <?php
 $taxonomies = get_terms( array(
@@ -17,7 +17,7 @@ $taxonomies = get_terms( array(
    'hide_empty' => false,
 ) );
 if ( ! empty( $taxonomies ) ) : ?>
-    <ul class='taxo'>
+    <ul class='product_list'>
         <?php
         foreach ( $taxonomies as $taxonomy ) {
          //   echo print_r( $taxonomy );

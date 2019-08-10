@@ -21,13 +21,22 @@ get_header(); ?>
 		  </div> 
 		 <?php get_template_part( 'template-parts/content', 'single' ); ?>
 		  </div>
-		  <button type="button" class="twitter">
-			  <i class="fa fa twitter">
-				
-			  </i>
-		  </button>
+		  
 		</div>
 		
+		<div class="social_buttons">
+
+			  <button> <i class="fab fa-facebook-f"><span>Like </span></i></button>
+
+
+
+			  <button> <i class="fab fa-twitter"> <span>Tweet</span></i></button>
+
+
+			  
+			  <button><i class="fab fa-pinterest"><span> Pin</span></i></button>
+		  </div>
+
 
 		
 

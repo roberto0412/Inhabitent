@@ -391,73 +391,6 @@ table {
   width: 100%; }
 
 /*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
-/* Buttons */
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6rem 1rem .4rem;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
-  button:hover,
-  input[type="button"]:hover,
-  input[type="reset"]:hover,
-  input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
-            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
-  button:active, button:focus,
-  input[type="button"]:active,
-  input[type="button"]:focus,
-  input[type="reset"]:active,
-  input[type="reset"]:focus,
-  input[type="submit"]:active,
-  input[type="submit"]:focus {
-    border-color: #aaa #bbb #bbb;
-    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
-            box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
-
-/* Fields */
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-textarea {
-  color: #666;
-  border: 1px solid #ccc;
-  border-radius: 3px; }
-  input[type="text"]:focus,
-  input[type="email"]:focus,
-  input[type="url"]:focus,
-  input[type="password"]:focus,
-  input[type="search"]:focus,
-  textarea:focus {
-    color: #111; }
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"] {
-  padding: 3px; }
-
-textarea {
-  padding-left: 3px;
-  width: 100%; }
-
-/*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
@@ -491,7 +424,7 @@ textarea {
     text-transform: uppercase;
     padding-right: 250px; }
     .site-header .menu-main-menu-container a:visited {
-      color: #248A83; }
+      color: #248a83; }
 
 .logo-tent {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../project-04/images/home-hero.jpg) no-repeat;
@@ -548,7 +481,7 @@ textarea {
       padding: 20px; }
       .archive.post-type-archive .taxo_titles ul li a {
         text-decoration: none;
-        color: #248A83;
+        color: #248a83;
         text-transform: uppercase; }
 
 .archive.post-type-archive .grid_wrapper {
@@ -613,7 +546,7 @@ textarea {
   padding-top: 20px; }
 
 .blog .entry-title {
-  background-color: #248A83;
+  background-color: #248a83;
   font-size: 2.1rem;
   padding: 10px;
   width: 70%;
@@ -625,8 +558,8 @@ textarea {
     .blog .entry-title a:visited {
       color: #ffffff; }
     .blog .entry-title a:hover {
-      background: #248A83;
-      border: 1px solid #248A83;
+      background: #248a83;
+      border: 1px solid #248a83;
       color: #fff; }
 
 .blog .readmore {
@@ -670,7 +603,7 @@ textarea {
   position: relative;
   left: 517.5px;
   bottom: 169px;
-  background-color: #248A83;
+  background-color: #248a83;
   color: #fff;
   width: 40%;
   padding: 6px; }
@@ -686,8 +619,8 @@ textarea {
   display: -ms-flexbox;
   display: flex; }
   .product-template-default.single.single-product .product_container img {
-    height: 437px;
-    width: 550px; }
+    height: 447px;
+    width: 560px; }
   .product-template-default.single.single-product .product_container .entry-header {
     position: relative;
     bottom: 70px;
@@ -705,6 +638,92 @@ textarea {
     font-family: "Merriweather Web,serif";
     font-size: 20px; }
 
+.product-template-default.single.single-product .social_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  left: 600px;
+  bottom: 20px;
+  width: 400px; }
+  .product-template-default.single.single-product .social_buttons button {
+    border: 1px solid #000;
+    border-radius: 0;
+    line-height: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: black; }
+    .product-template-default.single.single-product .social_buttons button:hover {
+      background: #248a83; }
+
+.archive.tax-product_type .page-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 120px; }
+
+.archive.tax-product_type .taxonomy-description {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.archive.tax-product_type .grid_wrapper {
+  border-top: 1px dashed #c8c8c8;
+  padding-top: 100px;
+  width: 1100px;
+  height: 600px;
+  margin-left: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px 200px; }
+  .archive.tax-product_type .grid_wrapper .post_grid h1 {
+    font-size: 16px;
+    font-family: "Merriweather"; }
+  .archive.tax-product_type .grid_wrapper .post_grid .product_pic {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-color: #e1e1e1; }
+    .archive.tax-product_type .grid_wrapper .post_grid .product_pic a img {
+      height: 235px;
+      max-width: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
+  .archive.tax-product_type .grid_wrapper .post_grid .Product-type {
+    border: 2px solid #e1e1e1; }
+    .archive.tax-product_type .grid_wrapper .post_grid .Product-type .productt_title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      top: 35px;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      position: relative; }
+    .archive.tax-product_type .grid_wrapper .post_grid .Product-type .product_price {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -712,7 +731,7 @@ textarea {
 a {
   color: royalblue; }
   a:visited {
-    color: #248A83; }
+    color: #248a83; }
   a:hover, a:focus, a:active {
     color: #d99054; }
   a:focus {
@@ -786,6 +805,73 @@ a {
   float: right;
   text-align: right;
   width: 50%; }
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+/* Buttons */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  background: #e6e6e6;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: .6rem 1rem .4rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+  button:hover,
+  input[type="button"]:hover,
+  input[type="reset"]:hover,
+  input[type="submit"]:hover {
+    border-color: #ccc #bbb #aaa;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
+  button:active, button:focus,
+  input[type="button"]:active,
+  input[type="button"]:focus,
+  input[type="reset"]:active,
+  input[type="reset"]:focus,
+  input[type="submit"]:active,
+  input[type="submit"]:focus {
+    border-color: #aaa #bbb #bbb;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+            box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+
+/* Fields */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px; }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="url"]:focus,
+  input[type="password"]:focus,
+  input[type="search"]:focus,
+  textarea:focus {
+    color: #111; }
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+  padding: 3px; }
+
+textarea {
+  padding-left: 3px;
+  width: 100%; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -910,7 +996,7 @@ a {
     .home .building_blocks div:hover {
       border-color: #d99054; }
     .home .building_blocks div .goto_link {
-      background: #248A83;
+      background: #248a83;
       text-decoration: none;
       color: white;
       padding: 10px 24px;

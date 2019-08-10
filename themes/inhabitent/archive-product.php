@@ -38,7 +38,7 @@ if ( ! empty( $taxonomies ) ) : ?>
    <?php $args = array(
    'order' => 'ASC',
    'posts_per_page' => 16,
-   'post_type' => array('product'),
+   'post_type' => array('Product'),
   );
    $query = new WP_Query( $args ); ?>
 

@@ -8,7 +8,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
  
-	<header class="entry-header">
+	<header class="entry-header entry-header-journal">
 		<?php if ( has_post_thumbnail() ) : ?>
 			<?php the_post_thumbnail( 'large' ); ?>
 		<?php endif; ?>
@@ -26,6 +26,6 @@
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-content -->
 
-	<a class ="readmore" href="<?php echo get_permalink();?>">Read More ---></a>
+	<a class ="readmore" href="<?php echo get_permalink();?>">Read More &rarr;</a>
 	
 </article><!-- #post-## -->

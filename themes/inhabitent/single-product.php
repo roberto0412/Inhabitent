@@ -19,7 +19,7 @@ get_header(); ?>
 		 <div class="product_price">
 		 <?php echo CFS()->get( 'price' ); ?>
 		  </div> 
-		 <?php get_template_part( 'template-parts/content', 'single' ); ?>
+		 <?php get_template_part( 'template-parts/content', 'product' ); ?>
 		  </div>
 		  
 		</div>

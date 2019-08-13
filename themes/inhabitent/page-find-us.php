@@ -6,22 +6,19 @@
  */
 
 get_header(); ?>
-<div class='conti'>
+<div class="flex-two-col">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<?php while ( have_posts() ) : the_post(); ?>
+		<?php if ( have_posts() ) : ?>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+		<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-			<?php endwhile; // End of the loop. ?>
+		<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-<div class="sideee">
-<?php get_sidebar(); ?>
-
-
+	<?php get_sidebar(); ?>
 </div>
 
 <?php get_footer(); ?>

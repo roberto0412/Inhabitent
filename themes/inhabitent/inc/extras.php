@@ -45,4 +45,3 @@ add_action( 'login_head', 'inhabitent_login_logo' );
 
 
 
-

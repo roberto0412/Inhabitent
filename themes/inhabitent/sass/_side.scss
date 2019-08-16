@@ -1,0 +1,44 @@
+
+
+
+
+.get_out{
+    border: none;
+
+    a{
+        position: relative;
+        /* position: absolute; */
+        right: 20px;
+        top: 15px;
+    }
+
+    .label_link{
+    position: relative;
+    bottom: 15px;
+    }
+
+
+    
+
+}
+
+
+
+
+
+.submitclick{
+
+    transition: all 0.5s ease;
+    display: none
+}
+
+
+
+.active{
+    background-color:hsla(0,0%,100%,.85);
+ 
+}
+
+.greengo{
+    color: green !important;
+}

@@ -69,6 +69,9 @@
                 color: white;
                 padding: 10px 24px;
                 align-self:center;
+                &:hover{
+                    background-color: darken($color_green, 10%);
+                }
 
 
             &:visited{
@@ -99,6 +102,81 @@
 
     }
 
+    .journal-stuff-container{
+        margin-bottom: 50px;
+    }
+   .journal-date{
+    height: 150px;
+    width: auto;
+    border: 1px solid #e1e1e1;
+    padding: .75rem 1.5rem;
+
+
+}
+
+    .journal-container{
+        .journal-cat{
+            p{
+                margin-bottom: 0px;
+
+            }
+        }
+
+
+        display: flex;
+        justify-content: space-evenly;
+    
+        img{
+            width: 400px;
+
+
+
+
+        }
+
+        .journal_buttn{
+            border: 1px solid #000;
+            color: #000;
+            font-size: .9rem;
+            line-height: 1;
+            padding: .75rem 1.5rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:hover{
+              background: $color_green;
+              color: white;
+            }
+            
+
+
+
+
+        }
+
+     .journal-thumb{
+         background-color: #e1e1e1;
+     }
+
+
+      span{
+          font-family: $new_font;
+          font-size: 12px;
+      }
+
+      a{
+          font-family: $font_sans;
+          font-size: 20.8px;
+          text-decoration: none;
+      }
+
+
+
+
+
+
+
+    }
+
 
 
   
@@ -106,3 +184,27 @@
 
 }
 
+
+
+
+
+.page-id-9 {
+        margin-top: -32px;
+    
+   
+    .entry-header{
+        display: none;
+        
+    }
+
+
+   .entry-content{
+    .entry-header{
+        height: 100vh;
+    }
+
+   }
+
+
+
+}

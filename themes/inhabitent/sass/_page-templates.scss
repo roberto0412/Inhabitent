@@ -6,23 +6,31 @@
 
 /*  Header Styling nav */
 
+form{
+  .wpcf7-form-control{
+  background-color: #f4f4f4;
+  border:1px solid #e1e1e1;
+  }
+}
 
 .site-header{
 
-    display: flex;
-     position: fixed;
+    position: fixed;
     width: 100%;
     border-bottom:1px solid #e1e1e1;
 
     .container{
         width: 100%;
+        max-width: 1120px;
         display: flex;
-
+        margin: 0 auto;
+        
         .logo_tent{
           position: relative;
-           margin-left: 300px;
+           //margin-left: 300px;
             height: 60px;
             width: 50px;
+            
         }
 
     }
@@ -37,17 +45,15 @@
         }
        .menu-main-menu-container{
          text-transform: uppercase;
-         padding-right: 250px;
-
-
+        
          a{
+           font-family: $font_sans;
 
           &:visited{
             color: $color_green;
           }
          }
-       }
-        
+       }    
 
 }
 
@@ -63,6 +69,10 @@
     top: 30%;
   }
 
+    }
+    h1{
+      font-family: $font_sans;
+      text-transform: uppercase;
     }
 
     .about_background{
@@ -125,6 +135,8 @@
 
         padding: 20px;
         a{
+          font-size: 19px;
+          font-family: $font_sans;
           text-decoration: none;
           color: $color_green;
           text-transform: uppercase;
@@ -235,7 +247,7 @@
 .page-template-default{
   .menu-main-menu-container{
     text-transform: uppercase;
-    padding-right: 250px;
+    
       a{
       color: $color_yellow;
      &:visited{
@@ -270,6 +282,7 @@
     text-transform: uppercase;
     &:hover{
       background-color: $color_green;
+      color: white
     }
     
   }
@@ -352,15 +365,42 @@
 
   }
 
-
-
-
  .widget-area{
+    padding-top: 50px;
     width: 300px;
-    height: 1000px;
-    margin-left: 60px;
+    height: 100vh;
+    padding-left: 50PX;
     border-left: 1px solid #e1e1e1;
+    margin-left:50px;
+    
+    .widget_archive{
+      padding-left: 50px;
+    }
+
               
+    }
+    .entry-meta{
+      box-sizing: unset !important;
+      width: 50%;
+    }
+
+    .tent-biz-hours-class{
+      width: 250px;
+    }
+
+    .wid_container{
+      h1{
+        font-family: $font_sans;
+        font-size: 30px;
+        color:#2f1339;
+        text-transform: uppercase;
+
+      }
+
+      span{
+        margin: 20px;
+
+      }
     }
 }
 
@@ -417,6 +457,9 @@
     left: 600px;
     bottom: 20px;
     width: 400px;
+    span{
+      margin: 14px;
+    }
 
 
 
@@ -426,14 +469,16 @@
       line-height: 0;
       margin-left: 5px;
       margin-right: 5px;
+      padding: .75rem 1.5rem;
   
       background: transparent;
       text-transform: uppercase;
       text-decoration: none;
-      padding: 5px 8px;
+      
       color: black;
       &:hover{
         background:$color_green;
+        color: white;
       }
       
     }

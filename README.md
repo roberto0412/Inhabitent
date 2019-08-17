@@ -1,6 +1,18 @@
-# RED Starter
+# Inhabitent Custom Theme
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+
+A WordPress Custom Theme, for a camping product store
+
+Technologies Used
+
+*PHP *JAVASCRIPT *JQUERRY *SASS *Gulp *WORDPRESS *CUSTOM WIDGET
+
+About The project
+
+*Inhabitent is a custom Wordpress theme built from a starter theme(blank), the project took us closer to wordpress functions and loops, as well as custom styling for worpress, we used a variety of plugins for this project and, built a custom plugin to display Store Hours, also included our own javascript, for different functionality and accesability.
+
+
+
 
 ## Installation
 

@@ -26,10 +26,130 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-	padding: 3px;
+	padding: .3rem;
 }
 
 textarea {
 	padding-left: 3px;
 	width: 100%;
+}
+
+
+
+
+.wpcf7{
+p{
+	label{
+		font-family: $font_sans;
+		text-transform: uppercase;
+		span{
+			color: orange;
+		}
+	}
+}
+
+
+.wpcf7-form-control.wpcf7-submit{
+	border: 1px solid #000;
+	background-color: $color_green !important;
+    color: #000;
+    font-size: .9rem;
+    line-height: 1;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+	color: white;
+    &:hover{
+      opacity: 0,5;
+	  
+    }
+  
+}
+
+
+
+
+}
+
+
+
+.comments-area{
+	label{
+		font-family: $font_sans;
+		text-transform: uppercase;
+		display: inline;
+		display:flex;
+	}
+	.comment-form-email{
+		width: 300px;
+		position: relative;
+		left: 490px;
+		bottom: 84px;
+	}
+
+
+	.comment-form-url{
+
+
+		input{
+			width: 800px;
+		}
+	}
+
+
+
+	textarea{
+		background-color: #f4f4f4;
+	color: #666;
+	border: 1px solid #e1e1e1;
+	}
+	input{
+		background-color: #f4f4f4;
+		color: #666;
+		border: 1px solid #e1e1e1;
+
+	}
+	h3{
+		font-family: $font_sans;
+		font-size: 33px;
+		text-transform: uppercase;
+	}
+	p{
+		font-family: $new_font;
+	}
+
+
+
+
+	.submit{
+		border: 1px solid #000;
+	background-color: $color_green !important;
+    color: #000;
+    font-size: .9rem;
+    line-height: 1;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+	color: white;
+    &:hover{
+      opacity: 0,5;
+	  
+    }
+
+
+
+	}
+
+
+
+
+
+
+}
+
+.search-field{
+	background: transparent;
+    border: none !important;
+	outline: none;
+	
 }

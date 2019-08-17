@@ -383,6 +383,10 @@ table {
 .greengo {
   color: green !important; }
 
+.error404 .page-content .get_out a {
+  bottom: 15px;
+  top: unset; }
+
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
@@ -394,8 +398,7 @@ form .wpcf7-form-control {
 
 .site-header {
   position: fixed;
-  width: 100%;
-  border-bottom: 1px solid #e1e1e1; }
+  width: 100%; }
   .site-header .container {
     width: 100%;
     max-width: 1120px;
@@ -618,6 +621,8 @@ h1 {
     margin-left: 50px; }
     .flex-two-col .widget-area .widget_archive {
       padding-left: 50px; }
+      .flex-two-col .widget-area .widget_archive a {
+        text-decoration: none; }
   .flex-two-col .entry-meta {
     -webkit-box-sizing: unset !important;
             box-sizing: unset !important;
@@ -631,6 +636,9 @@ h1 {
     text-transform: uppercase; }
   .flex-two-col .wid_container span {
     margin: 20px; }
+    .flex-two-col .wid_container span a {
+      color: #248a83 !important;
+      text-decoration: none; }
 
 .product-template-default.single.single-product .site-content {
   padding-bottom: 100px; }
@@ -732,6 +740,8 @@ h1 {
   .archive.tax-product_type .grid_wrapper .post_grid .Product-type {
     border: 2px solid #e1e1e1; }
     .archive.tax-product_type .grid_wrapper .post_grid .Product-type .productt_title {
+      font-family: "Merriweather Web", serif;
+      font-weight: 400;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -753,6 +763,40 @@ h1 {
 
 .page-template-default.page .content-area {
   padding-top: 0; }
+
+.archive.date .readmore {
+  background-color: #248a83 !important;
+  color: #000;
+  font-size: .9rem;
+  line-height: 1;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white; }
+  .archive.date .readmore:hover {
+    opacity: 0,5; }
+
+.search.search-results .site-main .entry-title a {
+  text-decoration: none;
+  font-family: "Novecento Sans Web", sans-serif;
+  font-size: 33px;
+  text-transform: uppercase; }
+  .search.search-results .site-main .entry-title a:hover {
+    color: black !important; }
+
+.search.search-results .readmore {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: .9rem;
+  line-height: 1;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black; }
+  .search.search-results .readmore:hover {
+    background-color: #248a83;
+    color: white; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -869,11 +913,83 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-  padding: 3px; }
+  padding: .3rem; }
 
 textarea {
   padding-left: 3px;
   width: 100%; }
+
+.wpcf7 p label {
+  font-family: "Novecento Sans Web", sans-serif;
+  text-transform: uppercase; }
+  .wpcf7 p label span {
+    color: orange; }
+
+.wpcf7 .wpcf7-form-control.wpcf7-submit {
+  border: 1px solid #000;
+  background-color: #248a83 !important;
+  color: #000;
+  font-size: .9rem;
+  line-height: 1;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white; }
+  .wpcf7 .wpcf7-form-control.wpcf7-submit:hover {
+    opacity: 0,5; }
+
+.comments-area label {
+  font-family: "Novecento Sans Web", sans-serif;
+  text-transform: uppercase;
+  display: inline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.comments-area .comment-form-email {
+  width: 300px;
+  position: relative;
+  left: 490px;
+  bottom: 84px; }
+
+.comments-area .comment-form-url input {
+  width: 800px; }
+
+.comments-area textarea {
+  background-color: #f4f4f4;
+  color: #666;
+  border: 1px solid #e1e1e1; }
+
+.comments-area input {
+  background-color: #f4f4f4;
+  color: #666;
+  border: 1px solid #e1e1e1; }
+
+.comments-area h3 {
+  font-family: "Novecento Sans Web", sans-serif;
+  font-size: 33px;
+  text-transform: uppercase; }
+
+.comments-area p {
+  font-family: "Merriweather Web", serif; }
+
+.comments-area .submit {
+  border: 1px solid #000;
+  background-color: #248a83 !important;
+  color: #000;
+  font-size: .9rem;
+  line-height: 1;
+  padding: .75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white; }
+  .comments-area .submit:hover {
+    opacity: 0,5; }
+
+.search-field {
+  background: transparent;
+  border: none !important;
+  outline: none; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1013,7 +1129,7 @@ textarea {
   margin-bottom: 50px; }
 
 .home .journal-date {
-  height: 150px;
+  height: 180px;
   width: auto;
   border: 1px solid #e1e1e1;
   padding: .75rem 1.5rem; }
@@ -1025,8 +1141,10 @@ textarea {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly; }
-  .home .journal-container .journal-cat p {
-    margin-bottom: 0px; }
+  .home .journal-container .journal-cat {
+    width: 400px; }
+    .home .journal-container .journal-cat p {
+      margin-bottom: 0px; }
   .home .journal-container img {
     width: 400px; }
   .home .journal-container .journal_buttn {
@@ -1054,8 +1172,19 @@ textarea {
   margin-top: -32px; }
   .page-id-9 .entry-header {
     display: none; }
+  .page-id-9 .entry-content h2 {
+    font-size: 33px; }
   .page-id-9 .entry-content .entry-header {
     height: 100vh; }
+  .page-id-9 .entry-title {
+    font-family: "Novecento Sans Web", sans-serif;
+    font-size: 48px;
+    color: white !important; }
+  .page-id-9 p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.75; }
 
 /*--------------------------------------------------------------
 # Content

@@ -106,7 +106,7 @@
         margin-bottom: 50px;
     }
    .journal-date{
-    height: 150px;
+    height: 180px;
     width: auto;
     border: 1px solid #e1e1e1;
     padding: .75rem 1.5rem;
@@ -116,6 +116,8 @@
 
     .journal-container{
         .journal-cat{
+            width: 400px;
+            
             p{
                 margin-bottom: 0px;
 
@@ -167,6 +169,8 @@
           font-family: $font_sans;
           font-size: 20.8px;
           text-decoration: none;
+    
+          
       }
 
 
@@ -185,10 +189,12 @@
 }
 
 
+// about page
 
 
 
 .page-id-9 {
+    
         margin-top: -32px;
     
    
@@ -199,10 +205,30 @@
 
 
    .entry-content{
+       h2{
+           font-size: 33px;
+       }
     .entry-header{
         height: 100vh;
     }
 
+
+
+   }
+
+   .entry-title{
+       font-family: $font_sans;
+       font-size: 48px;
+       color: white !important;
+
+   }
+
+
+   p{
+       max-width: 800px;
+       margin-left: auto;
+       margin-right: auto;
+       line-height:1.75;
    }
 
 

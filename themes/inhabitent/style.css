@@ -236,7 +236,7 @@ textarea {
   font-family: "Merriweather Web", serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 1.75; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -551,6 +551,7 @@ h1 {
   padding-top: 20px; }
 
 .blog .readmore {
+  font-family: "Novecento Sans Web", sans-serif;
   border: 1px solid #000;
   color: #000;
   font-size: .9rem;
@@ -807,7 +808,7 @@ h1 {
   .contai .traa::after {
     content: "->"; }
 
-.post-template-default.single.single-post.postid-69 .social_buttons {
+.post-template-default.single.single-post .social_buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -818,9 +819,9 @@ h1 {
   top: 80px;
   width: 400px;
   margin: 40px; }
-  .post-template-default.single.single-post.postid-69 .social_buttons span {
+  .post-template-default.single.single-post .social_buttons span {
     margin: 14px; }
-  .post-template-default.single.single-post.postid-69 .social_buttons button {
+  .post-template-default.single.single-post .social_buttons button {
     border: 1px solid #000;
     border-radius: 0;
     line-height: 0;
@@ -831,16 +832,19 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
     color: black; }
-    .post-template-default.single.single-post.postid-69 .social_buttons button:hover {
+    .post-template-default.single.single-post .social_buttons button:hover {
       background: #248a83;
       color: white; }
+
+.postid-82 .contai {
+  display: unset; }
 
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: #248a83; }
   a:visited {
     color: #248a83; }
   a:hover, a:focus, a:active {

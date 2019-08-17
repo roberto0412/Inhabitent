@@ -272,7 +272,7 @@ form{
 
 
   .readmore{
-    
+    font-family: $font_sans;
     border: 1px solid #000;
     color: #000;
     font-size: .9rem;
@@ -690,7 +690,9 @@ form{
 }
 
 
-.post-template-default.single.single-post.postid-69 {
+.post-template-default.single.single-post {
+
+
 
 
 
@@ -729,4 +731,13 @@ form{
       
     }
   }
+}
+
+
+.postid-82{
+  .contai{
+    display: unset;
+
+  }
+
 }

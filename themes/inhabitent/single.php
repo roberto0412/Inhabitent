@@ -14,18 +14,33 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
-
-
+			
 			<?php $loop=get_the_category($post->id)  ?>
 			<?php foreach ( $loop as $looop ) : ?>
-
-   <?php echo ($looop->name) ?>
+			
+			<div class="contai">
+  <div class="tra"> <?php echo ($looop->name) ?></div>
+  
 <?php endforeach;  ?>
 <?php $trii=get_the_tags($post->tag)  ?>
 			<?php foreach ( $trii as $triii ) : ?>
 			
-   <?php echo ($triii->name) ?>
-<?php endforeach;  ?>
+  <div class="traa"> <?php echo ($triii->name) ?></div>
+   <?php endforeach;  ?>
+   
+</div>
+<div class="social_buttons">
+
+			  <button> <i class="fab fa-facebook-f"><span>Like </span></i></button>
+
+
+
+			  <button> <i class="fab fa-twitter"> <span>Tweet</span></i></button>
+
+
+			  
+			  <button><i class="fab fa-pinterest"><span> Pin</span></i></button>
+		  </div>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.

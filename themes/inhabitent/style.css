@@ -530,7 +530,7 @@ h1 {
               justify-content: flex-end; }
 
 .product-template-default .site-main {
-  padding-top: 200px; }
+  padding-top: 150px; }
 
 .product-template-default .site-content {
   width: 1120px;
@@ -648,8 +648,8 @@ h1 {
   display: -ms-flexbox;
   display: flex; }
   .product-template-default.single.single-product .product_container img {
-    height: 447px;
-    width: 560px; }
+    height: 327px;
+    width: 540px; }
   .product-template-default.single.single-product .product_container .entry-header {
     position: relative;
     bottom: 70px;
@@ -676,7 +676,7 @@ h1 {
           justify-content: center;
   position: relative;
   left: 600px;
-  bottom: 20px;
+  top: 80px;
   width: 400px; }
   .product-template-default.single.single-product .social_buttons span {
     margin: 14px; }
@@ -797,6 +797,43 @@ h1 {
   .search.search-results .readmore:hover {
     background-color: #248a83;
     color: white; }
+
+.contai {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .contai .tra::after {
+    content: "->"; }
+  .contai .traa::after {
+    content: "->"; }
+
+.post-template-default.single.single-post.postid-69 .social_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 600px;
+  top: 80px;
+  width: 400px;
+  margin: 40px; }
+  .post-template-default.single.single-post.postid-69 .social_buttons span {
+    margin: 14px; }
+  .post-template-default.single.single-post.postid-69 .social_buttons button {
+    border: 1px solid #000;
+    border-radius: 0;
+    line-height: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: .75rem 1.5rem;
+    background: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black; }
+    .post-template-default.single.single-post.postid-69 .social_buttons button:hover {
+      background: #248a83;
+      color: white; }
 
 /*--------------------------------------------------------------
 # Navigation

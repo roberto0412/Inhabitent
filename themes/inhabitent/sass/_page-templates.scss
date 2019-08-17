@@ -221,7 +221,7 @@ form{
 .product-template-default{
 
   .site-main{
-    padding-top: 200px;
+    padding-top: 150px;
   }
 
   .site-content{
@@ -427,8 +427,8 @@ form{
     display: flex;
 
     img{
-      height: 447px;
-      width: 560px;
+      height: 327px;
+      width: 540px;
       
 
 
@@ -463,7 +463,8 @@ form{
     justify-content: center;
     position: relative;
     left: 600px;
-    bottom: 20px;
+    // bottom: 20px;
+    top: 80px;
     width: 400px;
     span{
       margin: 14px;
@@ -666,3 +667,66 @@ form{
 
 
 
+
+
+
+.contai{
+  display: flex;
+
+
+
+
+  .tra{
+    &::after{
+      content: "->"
+    }
+  }
+
+  .traa{
+    &::after{
+      content: "->"
+    }
+  }
+}
+
+
+.post-template-default.single.single-post.postid-69 {
+
+
+
+  .social_buttons{
+    display: flex;
+    justify-content: center;
+   
+    left: 600px;
+    // bottom: 20px;
+    top: 80px;
+    width: 400px;
+    margin: 40px;
+    span{
+      margin: 14px;
+    }
+
+
+
+    button{
+      border: 1px solid #000;
+      border-radius: 0;
+      line-height: 0;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: .75rem 1.5rem;
+  
+      background: transparent;
+      text-transform: uppercase;
+      text-decoration: none;
+      
+      color: black;
+      &:hover{
+        background:$color_green;
+        color: white;
+      }
+      
+    }
+  }
+}
